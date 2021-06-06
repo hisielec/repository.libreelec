@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.program.nodejs" name="NodeJS" version="14.15.4.0" provider-name="rootcoder">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">NodeJS</summary>
+    <description lang="en_gb">NodeJS 14.15.4</description>
+    <disclaimer lang="en_gb">Use at your own risk. No guarantee that this addon works as expected.</disclaimer>
+    <platform>linux</platform>
+    <forum/>
+    <website/>
+    <email/>
+    <news/>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart/>
+      <screenshot/>
+    </assets>
+  </extension>
+</addon>

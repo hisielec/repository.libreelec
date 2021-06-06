@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.multiplay"
+    name="Multiplay"
+    version="1.0.0"
+    provider-name="rootcoder">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests"/>
+        <import addon="script.module.web-pdb" />
+        <import addon="plugin.video.elementum" />
+        <import addon="script.program.nodejs" />
+        <import addon="service.mserver" />
+        <import addon="service.msolver" />
+        <import addon="inputstream.adaptive" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="multiplay.bin.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Assista aos últimos lançamentos em HD</summary>
+        <description lang="en">Add-on mantido por rootcoder.</description>
+        <platform>all</platform>
+        <news>
+[*] Versão inicial
+        </news>
+        <assets>
+            <icon>multiplay.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>
+
