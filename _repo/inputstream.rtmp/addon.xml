@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="inputstream.rtmp" version="20.3.0.5" name="RTMP Input" provider-name="spiff">
+<addon id="inputstream.rtmp" version="21.1.0.1" name="RTMP Input" provider-name="spiff">
   <requires>
     <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
     <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-    <import addon="kodi.binary.instance.inputstream" minversion="3.2.0" version="3.2.0"/>
+    <import addon="kodi.binary.instance.inputstream" minversion="3.3.0" version="3.3.0"/>
   </requires>
-  <extension point="kodi.inputstream" name="rtmp" protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps" listitemprops="SWFPlayer|swfurl|PageURL|PlayPath|TcUrl|IsLive|swfvfy" library_linux="inputstream.rtmp.so.20.3.0"/>
+  <extension point="kodi.inputstream" name="rtmp" protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps" listitemprops="SWFPlayer|swfurl|PageURL|PlayPath|TcUrl|IsLive|swfvfy" library_linux="inputstream.rtmp.so.21.1.0"/>
   <extension point="xbmc.addon.metadata">
     <platform/>
     <license>GPL-2.0-or-later</license>
