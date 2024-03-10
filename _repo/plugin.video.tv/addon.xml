@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tv"
+    name="TV Server Beta"
+    version="0.0.2"
+    provider-name="rootcoder">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3+matrix.1" />
+        <import addon="script.module.requests" version="2.25.1+matrix.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="tv.bin.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">TV!</summary>
+        <description lang="en">TV!</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
