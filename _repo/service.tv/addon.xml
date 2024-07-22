@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.tv" name="TV Server Beta" version="0.0.45" provider-name="rootcoder">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.tv" version="0.0.26"/>
+    <import addon="service.torresmo" optional="true" version="20.0.0"/>
+    <import addon="service.nodejs" version="20.13.0.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TV Server Beta</summary>
+    <description>
+
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+Melhorias e correções.
+    </news>
+    <assets><icon>resources/icon.png</icon><fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>

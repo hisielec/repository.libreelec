@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.m2" name="Media Proxy Server [M2]" version="1.0.0" provider-name="rootcoder">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Media Proxy Server [M2]</summary>
+    <description>
+
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+
+    </news>
+    <assets><icon>resources/icon.png</icon><fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
