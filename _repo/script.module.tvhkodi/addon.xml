@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.tvhkodi"
+  name="TVheadend Setup"
+  version="3.7.3"
+  provider-name="rootcoder">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Kodi interface for TVheadend setup</summary>
+    <description></description>
+    <disclaimer>Copyright (C) 2024</disclaimer>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart/>
+    </assets>
+    <news>
+      Versão inicial
+    </news>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+  </extension>
+</addon>
